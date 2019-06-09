@@ -89,6 +89,10 @@ Returns a promise for the available screens.
 })();
 ```
 
+## Tips
+
+#### Daily wallpaper (Linux)
+When setting up dail wallpaper changer in Linux via cron you need to rememeber that cron has limited env variable access - wallpaper has issues changing the picture. In order to overcome this, you can create little helper bash script that prepares env variable and invokes main javascript file that manages wallpaper change.
 
 ## Related
 
